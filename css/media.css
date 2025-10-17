@@ -1,15 +1,85 @@
-@media (min-width: 576px) and (width:768px){
-    .box{
-        width: calc(100% / 2);
+@media (max-width: 576px) {
+    /* Navbar */
+    .navbar {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 0;
     }
-}
-@media (min-width: 768px) and (width: 992px){
-    .box{
-        width: calc(100% / 3);
+
+    .navbar_lists {
+        flex-direction: column;
+        margin-top: 10px;
+        row-gap: 10px;
     }
-}
-@media (min-width: 992px) and (width:1200px){
-    .box{
-        width: calc(100% / 4);
+
+    /* Primer (video qismi) */
+    .primer {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .primer_video {
+        width: 100%;
+        height: 200px;
+        position: static;
+    }
+
+    .primer_content {
+        background: #f4fcff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .primer_text {
+        width: 100%;
+        padding: 15px 0;
+        font-size: 16px;
+    }
+
+    .button {
+        margin: 10px auto;
+        display: block;
+        width: 150px;
+        height: 45px;
+    }
+
+    /* 👇 Shu yer eng muhim qismi */
+    .button_lists {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+    }
+
+    .btn {
+        width: 80%;
+        height: 50px;
+    }
+
+    .main_img {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+    }
+
+    .main_image {
+        width: 90%;
+        height: auto;
+    }
+
+    .footer_txt {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main_title {
+        font-size: 22px;
+    }
+
+    .main_txt {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 10px;
     }
 }
